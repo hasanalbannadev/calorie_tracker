@@ -1,9 +1,21 @@
 # Calorie Tracker (Flutter)
 
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
+![Riverpod](https://img.shields.io/badge/Riverpod-State_Management-2563EB?style=for-the-badge)
+![Material 3](https://img.shields.io/badge/Material_3-757575?style=for-the-badge&logo=materialdesign&logoColor=white)
+![Clean Architecture](https://img.shields.io/badge/Clean-Architecture-success?style=for-the-badge)
+
 A simple Calorie Tracking app built with **Flutter**, **Riverpod** and **Clean Architecture**.
 Users can add food items with calories, delete them, and see the total / goal / remaining calories for today.
 
 > Data is stored in a local `List` only. No database, no API. Data resets when the app restarts.
+
+## Screenshots
+
+| Dashboard | Add Food |
+|:---:|:---:|
+| ![Dashboard](screenshots/Dashboard.jpeg) | ![Add Food](screenshots/food_add.jpeg) |
 
 ## Features
 
@@ -44,7 +56,7 @@ lib/
 │   ├── repositories/food_repository.dart
 │   └── usecases/         (get_foods, add_food, delete_food)
 └── presentation/
-    ├── providers/        (food_providers, food_notifier, calorie_summary_providers)
+    ├── providers/        (food_providers, food_notifier,calorie_summary_providers) 
     ├── screens/home_screen.dart
     └── widgets/
         ├── common/       (summary_card_container)
