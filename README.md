@@ -77,7 +77,7 @@ flutter pub get
 flutter run
 ```
 
-## Assignment Checklist
+## Project Checklist
 
 - [x] App name, today's date, summary card, daily goal, remaining calories
 - [x] Add Food button + form (name, kcal) with validation
